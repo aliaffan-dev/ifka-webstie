@@ -45,7 +45,7 @@ export default function Footer() {
               {[
                 { icon: Facebook, href: "https://www.facebook.com/share/1RbuAuzPd3/", label: "Facebook" },
                 { icon: Instagram, href: "https://www.instagram.com/iron_fist_karate_academy/", label: "Instagram" },
-                { icon: Youtube, href: "https://youtube.com/@ironfistkarateacademy-x7j?si=duB-8ndIv7C42dFM", label: "YouTube" },
+                { icon: Youtube, href: "https://www.youtube.com/@IronFistKarateAcademy-x7j", label: "YouTube" },
                 { icon: MessageCircle, href: "https://wa.me/917306036562", label: "WhatsApp" },
               ].map(({ icon: Icon, href, label }) => (
                 <a
