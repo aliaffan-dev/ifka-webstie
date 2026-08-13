@@ -43,9 +43,9 @@ export default function Footer() {
             </p>
             <div className="flex gap-2.5">
               {[
-                { icon: Facebook, href: "https://facebook.com/ifkakarate", label: "Facebook" },
+                { icon: Facebook, href: "https://www.facebook.com/share/1RbuAuzPd3/", label: "Facebook" },
                 { icon: Instagram, href: "https://www.instagram.com/iron_fist_karate_academy/", label: "Instagram" },
-                { icon: Youtube, href: "https://youtube.com/@ifkakarate", label: "YouTube" },
+                { icon: Youtube, href: "https://youtube.com/@ironfistkarateacademy-x7j?si=So_uoEx-he0LwjtZ", label: "YouTube" },
                 { icon: MessageCircle, href: "https://wa.me/917306036562", label: "WhatsApp" },
               ].map(({ icon: Icon, href, label }) => (
                 <a
