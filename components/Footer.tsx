@@ -103,7 +103,14 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <MapPin size={15} className="text-red-500 mt-0.5 flex-shrink-0" />
-                <span className="text-gray-400 text-sm leading-relaxed">Perinthalmanna, Malappuram<br />Kerala – 679357, India</span>
+                <a
+                  href="https://www.google.com/maps/place/XG64%2B6FH+Iron+Fist+Karate+Academy,+Thachampara,+Kerala+678593/@10.960468,76.5062175,15z/data=!4m6!3m5!1s0x3ba87f0041bf707d:0xf40dfba2d70347a7!8m2!3d10.960468!4d76.5062175!16s%2Fg%2F11vrlqy5s5?utm_campaign=ml-ardl&g_ep=Eg1tbF8yMDI2MDgxMV8wIJvbDyoASAJQAQ%3D%3D"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-white text-sm leading-relaxed transition-colors"
+                >
+                  3rd Floor, Vyapara Bhavan<br />Thachampara, Palakkad<br />Kerala – 678593, India
+                </a>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={15} className="text-red-500 flex-shrink-0" />
